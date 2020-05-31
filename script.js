@@ -23,7 +23,7 @@ const randomFunc = {
   symbol: getRandomSymbol,
 };
 
-//
+// created variables for each check box and number input in application
 //add + to length to change from string to number
 generateBtn.addEventListener("click", () => {
   const length = +lengthEl.value;
@@ -49,7 +49,7 @@ function generatePassword(lower, upper, number, symbol, length){
 
   const typesCount = lower + upper + number + symbol;
 
-  //console.log("typesCount: ", typesCount ); - checking if types count had all 4 parameters
+  //console.log("typesCount: ", typesCount ); - checking if console returned the parameters
 
   const typesArray = [{lower}, {upper}, {number}, {symbol}].filter
   (item => Object.values(item)[0]);
@@ -76,7 +76,7 @@ function generatePassword(lower, upper, number, symbol, length){
 
 }
 
-//generator functions - http://www.net-comber.com/charset.html
+//generator functions - http://www.net-comber.com/charset.html - used charset to generate Letters and Numbers 
 
 function getRandomLower() {
   return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
