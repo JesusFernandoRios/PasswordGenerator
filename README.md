@@ -9,5 +9,8 @@
 # Steps on Application
 - Create Checkboxes for criteria options
 - Created a text input for desired password length.
+- Created variables for all id's
+- Functions for Numbers and letters created using http://www.net-comber.com/charset.html
+
 
 
