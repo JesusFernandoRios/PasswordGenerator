@@ -12,5 +12,6 @@
 - Created variables for all id's
 - Functions for Numbers and letters created using http://www.net-comber.com/charset.html
 - tested live application 
+- added p tag to main div
 
 
